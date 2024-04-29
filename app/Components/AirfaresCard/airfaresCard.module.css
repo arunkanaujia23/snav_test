@@ -1,0 +1,118 @@
+.AirfaresCard {
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.12);
+    margin: 9px;
+    padding: 16px;
+}
+
+.AirfaresCardUpperText span {
+    color: var(--t1, #333);
+    font-family: Mulish;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.DestinationText h5 {
+    color: var(--t1, #333);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+}
+
+.DestinationText p {
+    color: var(--Text-4, #A5A5A5);
+    font-family: Mulish;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 4px;
+}
+
+.DestinationText h6 {
+    color: var(--Text-3, #5A5A5A);
+    font-family: Mulish;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+}
+
+.DestinationDuration {
+    text-align: center;
+}
+.DestinationDuration svg{
+    width: 100%;
+}
+.DestinationDuration p {
+    color: var(--d-9-d-9-d-9, #838383);
+    font-family: Mulish;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+
+.AirfaresCardPriceContainer {
+    margin: auto;
+    text-align: center;
+
+}
+
+.AirfaresCardPriceContainer h5 {
+    color: var(--t1, #333);
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.AirfaresCardPriceContainer button {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 4px;
+    background: var(--Primary, #DC3919);
+    padding: 8px 0px;
+    width: 100%;
+    border: 0;
+}
+.HorizontalLine {
+    width: 5px;
+    height: 120px;
+    border-left: 2px dotted #E0E0E0;
+}
+
+@media only screen and (max-width: 1020px) {
+    .AirfaresCard{
+        margin: 16px 0;
+        padding: 12px;
+    }
+    .HorizontalLine {
+        width: 100%;
+        height: 5px;
+        border-left: 0px dotted #E0E0E0;
+        border-top: 2px dotted #E0E0E0;
+        margin: 16px 0;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .AirfaresCardUpperText span {
+        font-size: 10px;
+    }
+}
